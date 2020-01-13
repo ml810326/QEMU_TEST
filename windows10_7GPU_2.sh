@@ -54,9 +54,9 @@ qemu-system-x86_64 \
 -drive if=pflash,format=raw,readonly,file=/usr/share/OVMF/OVMF_CODE.fd \
 -drive if=pflash,format=raw,file=/tmp/my_vars.fd \
 -boot order=dc \
--drive id=disk0,if=virtio,cache=none,format=raw,file=/home/viavm/iso/win10.img \
--drive file=/home/viavm/iso/Win10.iso,index=1,media=cdrom \
--drive file=/home/viavm/iso/virtio-win-0.1.171.iso,index=2,media=cdrom \
+-drive id=disk0,if=virtio,cache=none,format=raw,file=/home/vm/iso/win10.img \
+-drive file=/home/vm/iso/Win10.iso,index=1,media=cdrom \
+-drive file=/home/vm/iso/virtio-win-0.1.171.iso,index=2,media=cdrom \
 
 exit 0
 fi

@@ -88,7 +88,7 @@ qemu-system-x86_64 \
 -drive if=pflash,format=raw,readonly,file=/usr/share/OVMF/OVMF_CODE.fd \
 -drive if=pflash,format=raw,file=/tmp/my_vars.fd \
 -boot order=dc \
--drive id=disk0,if=virtio,cache=none,format=raw,file=/home/viavm/iso/win10.img \
+-drive id=disk0,if=virtio,cache=none,format=raw,file=/home/vm/iso/win10.img \
 
 exit 0
 fi
